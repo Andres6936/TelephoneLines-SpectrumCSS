@@ -13,6 +13,7 @@
     "@spectrum-css/button": "^3.0.0-beta.3",
     "@spectrum-css/buttongroup": "^3.0.0-beta.3",
     "@spectrum-css/card": "^3.0.0-beta.3",
+    "@spectrum-css/fieldgroup": "^3.0.0-beta.3",
     "@spectrum-css/fieldlabel": "^3.0.0-beta.4",
     "@spectrum-css/icon": "^2.1.1",
     "@spectrum-css/page": "^2.0.7",

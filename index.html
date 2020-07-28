@@ -21,6 +21,7 @@
     <link rel="stylesheet" href="node_modules/@spectrum-css/icon/dist/index-vars.css">
     <link rel="stylesheet" href="node_modules/@spectrum-css/button/dist/index-vars.css">
     <link rel="stylesheet" href="node_modules/@spectrum-css/fieldlabel/dist/index-vars.css">
+    <link rel="stylesheet" href="node_modules/@spectrum-css/fieldgroup/dist/index-vars.css">
     <link rel="stylesheet" href="node_modules/@spectrum-css/card/dist/index-vars.css">
 
     <title>Lineas Telefonicas</title>
@@ -132,11 +133,18 @@
 
     </div>
 
-    <div class="row row-cols-2">
+    <div class="row row-cols-1">
 
-        <div class="col"></div>
-
-        <div class="col"></div>
+        <div class="col spectrum-Card">
+            <div class="spectrum-Card-body p-1">
+                <div class="spectrum-FieldGroup">
+                    <label class="col-3 spectrum-FieldLabel">Total Cost:</label>
+                    <label class="col-3 spectrum-FieldLabel">Total Number Calls:</label>
+                    <label class="col-3 spectrum-FieldLabel">Total Minutes:</label>
+                    <label class="col-3 spectrum-FieldLabel">Average Cost per Minute:</label>
+                </div>
+            </div>
+        </div>
 
     </div>
 
